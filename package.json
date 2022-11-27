@@ -1,0 +1,24 @@
+{
+  "name": "node-adskip",
+  "version": "0.0.1",
+  "description": "Automatically skip YouTube ads on AppleTV using Hyperion.ng JSON API",
+  "main": "lib/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/app.js"
+  },
+  "keywords": [
+    "hyperion",
+    "appletv",
+    "pyatv",
+    "youtube"
+  ],
+  "author": "Nicolas Müller Noulezas",
+  "license": "ISC",
+  "dependencies": {
+    "@sebbo2002/node-pyatv": "^5.1.1",
+    "dotenv": "^16.0.3",
+    "jimp": "^0.16.2",
+    "ndjson": "^2.0.0"
+  }
+}
